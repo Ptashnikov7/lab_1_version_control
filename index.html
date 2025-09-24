@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор</title>
+  <script src="script.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    input { margin: 5px; padding: 5px; }
+    button { padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <h1>Простий калькулятор</h1>
+  <input id="a" type="number" placeholder="Перше число">
+  <input id="b" type="number" placeholder="Друге число"><br>
+  <button onclick="add()">Додати</button>
+  <button onclick="sub()">Відняти</button>
+  <button onclick="mul()">Помножити</button>
+  <button onclick="div()">Поділити</button>
+  <h2 id="result"></h2>
+</body>
+</html>
